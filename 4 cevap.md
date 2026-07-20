@@ -43,7 +43,7 @@ Linux'ta bir uygulama (örneğin ping veya curl) bir alan adını çözmek isted
 İçeride çalıştırdığın o gizli script tam olarak şu tek satırlık işlemi yaptı:
 
 /etc/nsswitch.conf dosyasının içinde varsayılan olarak şu satır bulunur:
-Plaintext
+
 
 hosts:          files dns
 
@@ -82,7 +82,7 @@ getent hosts google.com
 
 getent komutu, tıpkı ping veya curl gibi tamamen nsswitch.conf kurallarını takip eder.
 
-    Eğer dig yanıt veriyor ama getent hosts google.com boş dönüyor/hata veriyorsa: Sorun %100 /etc/nsswitch.conf dosyası veya içerisindeki bir kütüphanedeydir.
+    Eğer dig yanıt veriyor ama getent hosts google.com boş dönüyor/hata veriyorsa: Sorun %100 /etc/nsswitch.conf dosyası veya içerisindeki bir kütüphanededir.
 
     Özetle Teşhis Formülü:
     dig çalışıyor + ping domain çalışmıyor = /etc/nsswitch.conf bozuk!
