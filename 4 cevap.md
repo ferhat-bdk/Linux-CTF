@@ -1,7 +1,7 @@
 Yaptıklarım
 
 1- Terminalden ping atmaya çalışarak sorunu doğruladım
-2- etc dizinindeki dosyaları kontrol ettim ve birşey şey bulamadım.
+2- etc dizinindeki dosyaları kontrol ettim ve birşey bulamadım.
 3- Bu işlem esnasında uğradığı dosyaları görüntületebiliyor muyum diye araştırırken strach komutunu öğrendim
 4- Aşağıdaki Komutu ve altındaki komutları girerek adımları analiz ettim
 ```
