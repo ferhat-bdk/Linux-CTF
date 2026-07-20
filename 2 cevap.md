@@ -1,0 +1,1 @@
+Dosya adının başına tire (`-`) koymak, komut satırı araçlarının bunu bir "parametre" olarak algılamasına sebep olur (örneğin `cat -gizlinot.txt` yazınca `cat` bunu okumak yerine `-g` adında bir parametre arar). Çözüm `cat ./-gizlinot.txt` veya `cat -- -gizlinot.txt` yapmaktı
